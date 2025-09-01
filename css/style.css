@@ -1,0 +1,70 @@
+/* Menggunakan Font Poppins */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navigasi Bar */
+.navbar {
+  transition: background-color 0.4s ease-in-out;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+/* Hero Section */
+.hero-section {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Custom Horizontal Rule */
+hr {
+  border-top: 3px solid #198754;
+  opacity: 1;
+}
+
+/* Kartu Galeri */
+.gallery-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+}
+
+.gallery-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-card .card-img-top {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body {
+  background-color: #ffffff;
+}
+
+/* Modal Styling */
+.modal-content {
+  border: none;
+  border-radius: 1rem;
+}
+
+#modal-body img {
+  max-height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
