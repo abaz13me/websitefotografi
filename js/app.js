@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: 'Yordania',
             image: 'images/petra.jpg',
             description: 'Kota arkeologi yang terkenal dengan arsitektur pahatan batu dan sistem saluran airnya.',
-            full_description: 'Petra, yang juga dikenal sebagai Kota Mawar, adalah keajaiban arkeologi di Yordania selatan. Bangunan paling terkenal adalah Al-Khazneh (Perbendaharaan), yang diukir langsung pada tebing batu pasir.',
+            full_description: 'Petra, yang juga dikenal sebagai Kota Mawar, adalah keajaiban arkeologi di Yordania selatan. Bangunan paling terkenal adalah Al-Khazneh (Perbendaharaannya), yang diukir langsung pada tebing batu pasir.',
             facts: [
                 'Menjadi ibu kota Kerajaan Nabataean pada abad ke-4 SM.',
                 'Pintu masuk utama ke kota adalah melalui Siq, sebuah ngarai sempit sepanjang 1,2 km.',
@@ -165,4 +165,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Panggil fungsi untuk membangun galeri saat halaman dimuat
     renderGallery();
 });
-
